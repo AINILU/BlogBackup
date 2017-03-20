@@ -15,7 +15,19 @@ var a = 1,
 
 #### typeof操作符
 
+```
 typeof 100 // "number"
 typeof null // "object"
 
-Boolean(""/NaN/0/null/undefined)
+Boolean(""/NaN/0/null/undefined/false) = false;
+
+NaN != NaN;
+
+Number(undefined) = NaN;
+
+Number('') = 0;
+
+Number('') == +'';
+
+
+```
