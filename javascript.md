@@ -27,7 +27,9 @@ Number(undefined) = NaN;
 
 Number('') = 0;
 
-Number('') == +'';
-
-
 ```
+
+一元加等同于Number()
+null 和 undefined 没有toString方法
+
+++i //先计算后引用
