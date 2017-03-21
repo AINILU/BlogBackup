@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>类继承(构造函数)</title>
+</head>
+<body>
+    <script>
+        var father = function () {
+            this.age = 20;
+            this.say = function () {
+                console.log(`i am ${this.name} and i am ${this.age} years old.`);
+            }
+        }
+        var child = function () {
+            this.name = 'chen';
+            father.apply(this);
+        }
+        var man = new child();
+        man.say();
+    </script>
+</body>
+</html>
