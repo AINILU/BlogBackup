@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box" style="width:2000px;height:1000px;background:#000"></div>
+    <script type="text/javascript">
+    // offsetTop、offsetLeft相对于offsetParent的距离
+    // offsetHeight, offsetWidth：只读属性。这两个属性返回的是元素的高度或宽度，包括元素的边框、内边距和滚动条。返回值是一个经过四舍五入的整数。
+    // scrollHeight, scrollWidth：只读属性。返回元素内容的整体尺寸，包括元素看不见的部分（需要滚动才能看见的）。返回值包括padding，但不包括margin和border
+    // scrollTop, scrollLeft：图中已经表示的很明白了。如果元素不能被滚动，则为0。
+    // window.innerWidth, window.innerHeight：只读。视口（viewport）的尺寸，包含滚动条
+    // clientHeight, clientWidth：包括padding，但不包括border, margin和滚动条。
+    // Element.getBoundingClientRect()：只读，返回浮点值。这个方法非常有用，常用于确定元素相对于视口的位置。该方法会返回一个DOMRect对象，包含left, top, width, height, bottom, right六个属性
+    // left, right, top, bottom：都是元素（不包括margin）相对于视口的原点（视口的上边界和左边界）的距离。
+    // height, width：元素的整体尺寸，包括被滚动隐藏的部分；padding和border参与计算。另外，heigth=bottom-top, width=right-left。
+    // jQuery常用监听页面滚动
+    // 当前滚动的地方的窗口顶端到整个页面顶端的距离：
+    // 1
+    // var winPos = $(window).scrollTop();
+    // 获取指定元素的页面位置
+    // 1
+    // $(val).offset().top;
+    // 对页面滚动条滚动的监听：要放在页面加载的时候
+    // 1
+    // $(window).scroll(function(event){});
+    // 设置滚动条到指定位置
+    // 1
+    // $(window).scrollTop(offset)
+        console.log(document.body.clientWidth);//1350 132
+        console.log(document.body.clientHeight);//0 1000
+        console.log(document.body.offsetWidth);//1350 132
+        console.log(document.body.offsetHeight);//0 1000
+        console.log(document.body.scrollWidth);//1366 2008
+        console.log(document.body.scrollHeight);//676 1016
+        console.log(document.body.scrollTop);//0 0 0
+        console.log(document.body.scrollLeft);//0 0 663
+        console.log(window.screenTop);//0 0 0
+        console.log(window.screenLeft);//0 0 -7
+        console.log(window.screen.height);//768
+        console.log(window.screen.width);//1366
+        console.log(window.screen.availHeight);//768
+    </script>
+
+</body>
+</html>
