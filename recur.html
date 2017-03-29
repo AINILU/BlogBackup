@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js递归</title>
+    <link rel="stylesheet" href="./master.css">
+</head>
+
+<body>
+    <p class="haha">
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+        <a href="" class="hello hello-child"></a>
+    </p>
+    <script>
+        function f() {
+            let arr = Array.from(arguments);
+            let before = arr.slice(0, arr.length - 1);
+            let n = arr[arr.length - 1];
+            for (let i = 1; i < n; i++) {
+                f(...before, i, n - i);
+            }
+            alert(arr.join(''));
+        }
+        f(2);
+    </script>
+</body>
+
+</html>
