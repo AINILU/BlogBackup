@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = {n:1};
+        var b = a;//若两个对象同时指向一个对象那么对对象的修改是同步的
+        a.x = a ={n:2};//将a的引用地址都取出来指向{n:1}2，创建{n:2}3，a={n:2}4,{n:1}.x={n:2}5,b={n:1,x:{n:2}}
+        console.log(a.x);//undefined
+        console.log(b.x);//b={n:1,x:{n:2}} n:2
+
+    </script>
+</body>
+</html>
