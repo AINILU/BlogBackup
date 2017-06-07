@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>你可能并不需要jQuery</title>
+    <style media="screen">
+        ul {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <ul class="oul" id="uli" name="chu">
+        <li class="items" id="li"><a href="">节点1</a></li>
+        <li class="items"><a href="">节点2</a></li>
+        <li class="items"><a href="">节点3</a></li>
+        <li class="items"><a href="">节点4</a></li>
+    </ul>
+    <iframe src="./IFE-2017/task1-1/index.html" width="200" height="200"></iframe>
+
+    <script type="text/javascript">
+        console.time('label');
+        // console.log(document.querySelectorAll('ul'));//13.975ms
+        // console.log(document.getElementsByClassName('oul'));//11.774ms
+        // console.log(document.getElementsByTagName('ul'));//12.735ms
+        // console.log(document.getElementById('uli'));//6.274ms
+        // console.log(document.getElementsByName('chu'));//10.843ms
+        // console.log(document.querySelector('ul'));//4.663ms
+        // console.log(document.querySelector('ul').querySelectorAll('li'));//$el.find()
+        // 兄弟元素$el.sibings()
+        // console.log([...document.querySelector('li').parentNode.children].filter(el => el !== document.querySelector('li')));
+        // console.log(Array.from(document.querySelector('li').parentNode.children).filter(el => el !== document.querySelector('li')));
+        // console.log(Array.prototype.filter.call(document.querySelector('li').parentNode.children,el => el !== document.querySelector('li')));
+        // $el.prev();
+        // console.log(document.querySelector('#li').nexElementSibling);
+        // console.log(document.querySelector('#li').closest('body'));
+        // Closest 获得匹配选择器的第一个祖先元素，从当前元素开始沿 DOM 树向上
+        // // document.querySelector('iframe').setAttribute('foo','bar');
+        // document.querySelector('iframe').dataset['foo']
+        //
+        // console.log(document.querySelector('iframe').getAttribute('data-foo'));
+        // const win = document.querySelector('ul').ownerDocument.defaultView;
+        // console.log(win.getComputedStyle(document.querySelector('ul'),null).color);
+        console.log(document.querySelector('ul').classList.contains('oul'));
+        console.timeEnd('label');
+    </script>
+</body>
+</html>

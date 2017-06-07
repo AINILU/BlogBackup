@@ -1,0 +1,54 @@
+<div class="post-comments">
+	<span class="post-comments-btn">评论</span>
+	<div class="post-comments-script">
+{{!-- 下面是评论代码 --}}
+<!-- <div id="container"></div>
+<script type="text/javascript">
+	$(document).ready(function() {
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "https://imsun.github.io/gitment/dist/gitment.browser.js";
+document.getElementsByTagName("head")[0].appendChild(script);
+var gitment = new Gitment({
+	id: 'location.href', // 可选。默认为 location.href
+	owner: 'CHUENWEI',
+	repo: 'Note',
+	oauth: {
+		client_id: '5fa6b268d2ff83d1df02',
+		client_secret: 'd18759cea288f2e0c9d2686f61982c66ba2a85df',
+	},
+})
+gitment.render('container');
+ });
+</script> -->
+
+
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.post-comments-btn').on('click', function(){
+			var disqus_shortname = 'rebirth-1';	// 修改值为你的网站名;
+			$.ajax({
+				type: "GET",
+				url: "http://" + disqus_shortname + ".disqus.com/embed.js",
+				dataType: "script",
+				cache: true
+			});
+			//$(this).fadeOut();
+		});
+	});
+	var reset = function (newIdentifier, newUrl, newTitle, newLanguage) {
+	    DISQUS.reset({
+	        reload: true,
+	        config: function () {
+	            this.page.identifier = newIdentifier;
+	            this.page.url = newUrl;
+	            this.page.title = newTitle;
+	            this.language = newLanguage;
+	        }
+	    });
+	};
+</script>
+{{!-- 上面是评论代码 --}}
+	</div>
+</div>

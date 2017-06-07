@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        Array.prototype._map = function(fn, context) {
+            var temp = [];
+            if (typeof fn == 'function') {
+                var k = 0;
+                var len = this.length;
+                for (; k < len; k++) {
+                    temp.push(fn.call(context, this[k], k, this))
+                }
+            } else {
+                console.error('TypeError: ' + fn + ' is not a function.');
+            }
+            return temp;
+        };
+        var newArr = [1, 2, 3, 4]._map(function (item) {
+            return item + 1;
+        })
+        console.log(newArr);
+    </script>
+</body>
+
+</html>

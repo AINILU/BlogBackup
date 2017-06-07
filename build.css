@@ -1,0 +1,46 @@
+p em, p .min {
+  font-size: 20px; }
+
+body {
+  font-size: 10px;
+  color: #e6e6e6; }
+
+.test {
+  font-size: 1.6rem;
+  color: #999999; }
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 300px;
+  background-color: #00f;
+  padding-top: 20px;
+  padding-left: 20px; }
+  p em, p .min {
+    color: #0f0; }
+  p a {
+    text-decoration: none;
+    color: #f0f; }
+    p a:hover {
+      color: #ccc; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1em; }
+
+.item-1 {
+  width: 1em; }
+
+.item-2 {
+  width: 2em; }
+
+.item-3 {
+  width: 3em; }
+
+/*# sourceMappingURL=build.css.map */
