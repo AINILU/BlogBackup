@@ -19,8 +19,8 @@ Front-end tech thoughts and essays
 2. [常用布局整理](https://github.com/wengjq/Blog/issues/13)
 
 ## [面试题]()
-1. [一天一道前端面试题（一）](./interview/一天一道前端面试题（一）.md)
-1. [一天一道前端面试题（二）](./interview/一天一道前端面试题（二）.md)
+1. [一天一道前端面试题（一）——跨域](./interview/一天一道前端面试题（一）.md)
+1. [一天一道前端面试题（二）——Web安全](./interview/一天一道前端面试题（二）.md)
 
 ## [其他]()
 1. [前端跨域问题及解决方案](https://github.com/wengjq/Blog/issues/2)
