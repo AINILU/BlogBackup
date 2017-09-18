@@ -6,12 +6,12 @@ JavaScript专题系列正在发布中……
 [JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
 ## javascript学习笔记
 1. [javaScript学习笔记（一）——原型和原型链](./javascript/原型与原型链.md)
-2. [javaScript的数据结构与算法（二）——链表](https://github.com/wengjq/Blog/issues/5)
-3. [javaScript的数据结构与算法（三）——集合](https://github.com/wengjq/Blog/issues/6)
-4. [javaScript的数据结构与算法（四）——字典和散列表](https://github.com/wengjq/Blog/issues/7)
-5. [javaScript的数据结构与算法（五）——树](https://github.com/wengjq/Blog/issues/8)
-6. [javaScript的数据结构与算法（六）——图](https://github.com/wengjq/Blog/issues/9)
-7. [javaScript的数据结构与算法（七）——排序与搜索算法](https://github.com/wengjq/Blog/issues/10)
+2. [javaScript学习笔记（二）——闭包](./javascript/闭包.md)
+3. [javaScript学习笔记（三）——集合](https://github.com/wengjq/Blog/issues/6)
+4. [javaScript学习笔记（四）——字典和散列表](https://github.com/wengjq/Blog/issues/7)
+5. [javaScript学习笔记（五）——树](https://github.com/wengjq/Blog/issues/8)
+6. [javaScript学习笔记（六）——图](https://github.com/wengjq/Blog/issues/9)
+7. [javaScript学习笔记（七）——排序与搜索算法](https://github.com/wengjq/Blog/issues/10)
 
 ## [前端性能]()
 1. [4种JavaScript内存泄漏浅析及如何用谷歌工具查内存泄露](https://github.com/wengjq/Blog/issues/1)
