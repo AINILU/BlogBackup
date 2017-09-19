@@ -1,10 +1,12 @@
 # 写博客的地方
 ## 进度
 JavaScript学习笔记完成。
+
 一天一道面试题持续更新中……
+
 JavaScript专题系列正在发布中……
 ## 系列总结
-[JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
+[JavaScript学习笔记系列总结！]()
 ## javascript学习笔记
 1. [javaScript学习笔记（一）——内存管理](./javascript/内存管理.md)
 2. [javaScript学习笔记（二）——执行上下文](./javascript/执行上下文.md)
