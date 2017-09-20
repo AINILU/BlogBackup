@@ -17,7 +17,7 @@ JavaScript专题系列正在发布中……
 7. [javaScript学习笔记（七）——事件循环](./javascript/事件循环.md)
 8. [javaScript学习笔记（八）——异步机制](./javascript/异步机制.md)
 ## ES6学习笔记
-## VUE学习笔记
+## Vue学习笔记
 ## 前端性能
 1. [4种JavaScript内存泄漏浅析及如何用谷歌工具查内存泄露](https://github.com/wengjq/Blog/issues/1)
 2. [前端最佳实践（一）——DOM操作](https://github.com/wengjq/Blog/issues/14)
