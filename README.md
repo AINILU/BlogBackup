@@ -26,7 +26,8 @@ JavaScript专题系列正在发布中……
 3. [什么？页面卡顿？操作慢？](https://github.com/wengjq/Blog/issues/15)
 ## CSS学习笔记
 1. [布局涉及知识点整理](./css/CSS布局相关知识整理.md)
-2. [常用布局整理](https://github.com/wengjq/Blog/issues/13)
+2. [常用布局整理]()
+3. [flex布局与grid布局](./css/flex布局与grid布局.md)
 ## 面试题整理
 1. [一天一道前端面试题（一）——前端跨域问题](./interview/一天一道前端面试题（一）.md)
 1. [一天一道前端面试题（二）——XSS和CSXF](./interview/一天一道前端面试题（二）.md)
@@ -37,7 +38,7 @@ JavaScript专题系列正在发布中……
 ## 随笔
 1. hello world
 ## 勘误及提问
-如果有疑问或者发现错误，可以在相应的 issues 进行提问或勘误。
-如果喜欢或者有所启发，欢迎 star，对作者也是一种鼓励。
+如果有疑问或者发现错误，可以在相应的 issues 进行讨论与交流。
+如果喜欢或者有所启发，欢迎 star。
 ## License
 所有文章采用[知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)进行许可。

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>flex</title>
+  <style>
+    .father {
+      width: 400px;
+      height: 200px;
+      background-color: #ccc;
+      /* 设置flex容器 */
+      display: flex;
+      /* 确立主轴 */
+      flex-direction: row;
+      /* 容器是否换行 */
+      flex-wrap: nowrap;
+      /* flex-direction 和 flex-wrap 属性的简写，决定弹性项目如何排布 */
+      /* flex-flow: row nowrap; */
+      /* 定义了在当前行上，弹性项目沿主轴如何排布 */
+      justify-content: center;
+      /* 定义了在当前行上，弹性项目沿侧轴默认如何排布 */
+      align-items: center;
+    }
+    .child {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+
+      background-color: #ff00ff;
+    }
+    .child:nth-child(2) {
+      /* 默认值为0 */
+      flex-grow: 1;
+      order: -1; 
+    }
+  </style>
+</head>
+<body>
+  <div class="father">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>    
+  </div>
+</body>
+</html>
