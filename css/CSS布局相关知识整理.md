@@ -60,7 +60,6 @@
 ### margin
 ### position
 ### flex
-
 ### table
 - table可设置width、height、border、padding、margin值
 - 宽高默认由内容撑开，如果设置了宽度，宽度默认被里面的td平分，如果给某个td设置宽度，剩下来宽度由其他td平分
