@@ -37,8 +37,9 @@ JavaScript专题系列正在发布中……
 1. [有趣的javascript测试题](./other/有趣的javascript测试题.md)
 2. [javaScript中浅拷贝和深拷贝的实现](https://github.com/wengjq/Blog/issues/3)
 3. [Markdown语法规则](./other/Markdown语法规则.md)
-1. [Javascript奇技淫巧](./other/Javascript奇技淫巧.md)
 1. [Git查漏补缺](./other/Git查漏补缺.md)
+4. [Javascript奇技淫巧](./other/Javascript奇技淫巧.md)
+
 ## 随笔
 ## 勘误及提问
 如果有疑问或者发现错误，可以在相应的 issues 进行讨论与交流。
