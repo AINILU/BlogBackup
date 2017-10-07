@@ -38,7 +38,7 @@ JavaScript专题系列正在发布中……
 2. [javaScript中浅拷贝和深拷贝的实现](https://github.com/wengjq/Blog/issues/3)
 3. [Markdown语法规则](./other/Markdown语法规则.md)
 1. [Git查漏补缺](./other/Git查漏补缺.md)
-4. [Javascript奇技淫巧](./other/Javascript奇技淫巧.md)
+4. [Javascript小练习](./other/Javascript小练习.md)
 
 ## 随笔
 ## 勘误及提问
