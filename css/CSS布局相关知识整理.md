@@ -1,11 +1,7 @@
-## 盒模型
-- content-box 是默认值。如果你设置一个元素的宽为100px，那么这个元素的内容区会有100px宽，并且任何边框和内边距的宽度都会被增加到最后绘制出来的元素宽度中。
-- border-box 告诉浏览器去理解你设置的边框和内边距的值是包含在width内的。也就是说，如果你将一个元素的width设为100px,那么这100px会包含其它的border和padding
-## 浮动与BFC
-### 常规流
+###常规流
 - 除根元素、float、absolute，其他元素都在流内
 - 根元素、float、absolute会脱离常规流
-- 常规流中的盒子，属于BFC或IFC
+- 常规流中的盒子，属于块级盒子与行级盒子
 ### 块级盒子
 1. 盒子在容器内从上到下一个接一个的摆放
 1. 两个兄弟盒子间的距离由margin属性决定
@@ -57,9 +53,6 @@
 - 去除margin重叠
 - 清除浮动
 - 两栏布局
-### margin
-### position
-### flex
 ### table
 - table可设置width、height、border、padding、margin值
 - 宽高默认由内容撑开，如果设置了宽度，宽度默认被里面的td平分，如果给某个td设置宽度，剩下来宽度由其他td平分
@@ -73,8 +66,4 @@
 - 继承table高度，平分宽度
 - **给td设置vertical-align: middle;除了float，absolute所有block，inline元素都会相对于td垂直居中**
 - **给td设置text-align: center;除了float，absolute所有inline元素水平居中，block元素不居中但他的内容或子inline元素居中**
-
-
-
-
-
+###margin负值

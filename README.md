@@ -25,6 +25,7 @@ JavaScript专题系列正在发布中……
 2. [前端最佳实践（一）——DOM操作](https://github.com/wengjq/Blog/issues/14)
 3. [什么？页面卡顿？操作慢？](https://github.com/wengjq/Blog/issues/15)
 ## CSS学习笔记
+1. [居中实现方式整理](./css/居中整理.md)
 1. [布局涉及知识点整理](./css/CSS布局相关知识整理.md)
 2. [常用布局整理]()
 3. [flex布局与grid布局](./css/flex布局与grid布局.md)
