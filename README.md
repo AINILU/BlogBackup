@@ -32,7 +32,7 @@ JavaScript专题系列正在发布中……
 3. [flex布局与grid布局](./css/flex布局与grid布局.md)
 ## 面试题整理
 1. [一天一道前端面试题（一）——前端跨域问题](./interview/一天一道前端面试题（一）.md)
-1. [一天一道前端面试题（二）——XSS和CSXF](./interview/一天一道前端面试题（二）.md)
+1. [一天一道前端面试题（二）——XSS和CSRF](./interview/一天一道前端面试题（二）.md)
 ## 其他
 1. [有趣的javascript测试题](./other/有趣的javascript测试题.md)
 2. [javaScript中浅拷贝和深拷贝的实现](https://github.com/wengjq/Blog/issues/3)
