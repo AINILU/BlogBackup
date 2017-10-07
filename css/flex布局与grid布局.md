@@ -42,5 +42,8 @@
 1. `grid-area`：item所在区域 
 1. `justify-self`：自定义item的水平方向对齐方式
 1. `align-self`：自定义item的垂直方向对齐方式
+### 参考资料
+- https://segmentfault.com/a/1190000002910324
+- http://imweb.io/topic/58176922f6361de950b6f552
 
 
