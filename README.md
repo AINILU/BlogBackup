@@ -17,27 +17,29 @@ JavaScript专题系列正在发布中……
 7. [javaScript学习笔记（七）——事件循环](./javascript/事件循环.md)
 8. [javaScript学习笔记（八）——异步机制](./javascript/异步机制.md)
 ## ES6学习笔记
-1.
-1.
+## Typescript学习笔记
 ## Vue学习笔记
+## Angular学习笔记
+## React学习笔记
 ## 前端性能
 1. [4种JavaScript内存泄漏浅析及如何用谷歌工具查内存泄露](https://github.com/wengjq/Blog/issues/1)
 2. [前端最佳实践（一）——DOM操作](https://github.com/wengjq/Blog/issues/14)
 3. [什么？页面卡顿？操作慢？](https://github.com/wengjq/Blog/issues/15)
 ## CSS学习笔记
-1. [居中实现方式整理](./css/居中整理.md)
-1. [布局涉及知识点整理](./css/CSS布局相关知识整理.md)
-2. [常用布局整理]()
+1. [居中实现方式整理](./css/居中实现方式整理.md)
+1. [布局涉及知识点整理](./css/布局涉及知识点整理.md)
+2. [常用布局整理](./css/常用布局整理.md)
 3. [flex布局与grid布局](./css/flex布局与grid布局.md)
 ## 面试题整理
 1. [一天一道前端面试题（一）——前端跨域问题](./interview/一天一道前端面试题（一）.md)
 1. [一天一道前端面试题（二）——XSS和CSXF](./interview/一天一道前端面试题（二）.md)
 ## 其他
-1. [前端跨域问题及解决方案](https://github.com/wengjq/Blog/issues/2)
+1. [有趣的javascript测试题](./other/有趣的javascript测试题.md)
 2. [javaScript中浅拷贝和深拷贝的实现](https://github.com/wengjq/Blog/issues/3)
-3. [用canvas实现流星特效](https://github.com/wengjq/Blog/issues/11)
+3. [Markdown语法规则](./other/Markdown语法规则.md)
+1. [Javascript奇技淫巧](./other/Javascript奇技淫巧.md)
+1. [Git查漏补缺](./other/Git查漏补缺.md)
 ## 随笔
-1. hello world
 ## 勘误及提问
 如果有疑问或者发现错误，可以在相应的 issues 进行讨论与交流。
 如果喜欢或者有所启发，欢迎 star。
