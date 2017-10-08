@@ -7,28 +7,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 200px auto 250px;
+      grid-template-rows: 300px;
+      grid-column-gap: 20px;
+    }
+
     .left {
-      width: 200px;
-      height: 300px;
       border: 10px solid red;
-      margin-right: 20px;
-      float: left;
       background-color: #cccccc;
+      order: -1;
     }
 
     .right {
-      width: 250px;
-      height: 300px;
       border: 10px solid black;
-      margin-left: 20px;
-      float: right;
       background-color: #bbff00;
+      order: 1;
     }
 
     .main {
-      height: 300px;
       border: 10px solid blue;
-      overflow: hidden;
       background-color: #00eeff;
     }
   </style>
@@ -36,9 +39,9 @@
 
 <body>
   <div class="container">
+    <div class="main">main</div>      
     <div class="left">left</div>
     <div class="right">right</div>
-    <div class="main">main</div>
   </div>
 </body>
 

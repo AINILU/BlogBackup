@@ -7,28 +7,39 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      position: relative;
+    }
+
     .left {
       width: 200px;
       height: 300px;
       border: 10px solid red;
-      margin-right: 20px;
-      float: left;
       background-color: #cccccc;
+      position: absolute;
+      top: 0;
+      left: 0;
     }
 
     .right {
       width: 250px;
       height: 300px;
       border: 10px solid black;
-      margin-left: 20px;
-      float: right;
       background-color: #bbff00;
+      position: absolute;
+      top: 0;
+      right: 0;
     }
 
     .main {
+      margin-left: 220px;
+      margin-right: 270px;
       height: 300px;
       border: 10px solid blue;
-      overflow: hidden;
       background-color: #00eeff;
     }
   </style>
@@ -36,9 +47,9 @@
 
 <body>
   <div class="container">
+    <div class="main">main</div>
     <div class="left">left</div>
     <div class="right">right</div>
-    <div class="main">main</div>
   </div>
 </body>
 

@@ -7,28 +7,35 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+    }
+
     .left {
-      width: 200px;
+      flex-basis: 200px;
+      order: -1;
       height: 300px;
       border: 10px solid red;
-      margin-right: 20px;
-      float: left;
       background-color: #cccccc;
     }
 
     .right {
-      width: 250px;
+      order: 1;
+      flex-basis: 250px;
       height: 300px;
       border: 10px solid black;
-      margin-left: 20px;
-      float: right;
       background-color: #bbff00;
     }
 
     .main {
+      flex-grow: 1;      
       height: 300px;
+      margin: 0 20px;
       border: 10px solid blue;
-      overflow: hidden;
       background-color: #00eeff;
     }
   </style>
@@ -36,9 +43,9 @@
 
 <body>
   <div class="container">
+      <div class="main">main</div>      
     <div class="left">left</div>
     <div class="right">right</div>
-    <div class="main">main</div>
   </div>
 </body>
 
