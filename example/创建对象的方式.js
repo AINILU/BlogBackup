@@ -1,6 +1,4 @@
-## 创建对象的方式
-1. 对象字面量创建单个对象
-```js
+// 对象字面量
 var clock1 = {
   hour: 23,
   minute: 23,
@@ -9,11 +7,9 @@ var clock1 = {
     console.log(`当前时间为：${this.hour}:${this.minute}:${this.second}`)
   }
 }
-
 clock1.showTime()
-```
-2. 通过Object构造函数
-```js
+
+// Object构造函数
 var clock2 = new Object()
 clock2.hour = 22
 clock2.minute = 22
@@ -21,11 +17,9 @@ clock2.second = 22
 clock2.showTime = function () {
   console.log(`当前时间为：${this.hour}:${this.minute}:${this.second}`)
 }
-
 clock2.showTime()
-```
-4. 工厂模式
-```js
+
+// 工厂模式
 function ClockFactory(hour, minute, second) {
   // 声明一个中间对象，该对象是工厂的模子
   var obj = new Object()
@@ -42,9 +36,8 @@ var clock3 = new ClockFactory(21, 21, 21)
 var clock4 = new ClockFactory(20, 20, 20)
 clock3.showTime()
 clock4.showTime()
-```
-5. 构造函数
-```js
+
+// 构造函数
 function ClockFunc(hour, minute, second) {
   this.hour = hour
   this.minute = minute
@@ -59,9 +52,7 @@ var clock6 = new ClockFunc(18, 18, 18)
 clock5.showTime()
 clock6.showTime()
 
-```
-6. 原型模式
-```js
+// 原型模式
 function ClockProto() {
 }
 ClockProto.prototype.hour = 17
@@ -70,13 +61,10 @@ ClockProto.prototype.second = 17
 ClockProto.prototype.showTime = function () {
   console.log(`当前时间为：${this.hour}:${this.minute}:${this.second}`)
 }
-
 var clock7 = new ClockProto()
 clock7.showTime()
 
-```
-7. 构造函数 + 原型模式
-```js
+// 构造函数 + 原型模式
 function ClockFuncProto(hour, minute, second) {
   this.hour = hour
   this.minute = minute
@@ -85,12 +73,10 @@ function ClockFuncProto(hour, minute, second) {
 ClockFuncProto.prototype.showTime = function () {
   console.log(`当前时间为：${this.hour}:${this.minute}:${this.second}`)
 }
-
 var clock8 = new ClockFuncProto(16, 16, 16)
 clock8.showTime()
-```
-8. ES6 
-```js
+
+// es6
 class ClockEs6 {
   constructor(hour, minute, second) {
     this.hour = hour;
@@ -104,28 +90,11 @@ class ClockEs6 {
 
 var clock9 = new ClockEs6(15, 15, 15)
 clock9.showTime()
-```
-9. Object.create()
 
-ES5定义了一个名为`Object.create()`的方法，它创建一个新对象，其中第一个参数是这个对象的原型，第二个参数对对象的属性进行进一步描述。
-## new关键字
-- 声明一个中间对象
-- 将该中间对象的原型指向构造函数的原型
-- 将构造函数的this，指向该中间对象
-- 返回该中间对象，即返回实例对象
-## 继承
-### (一) 原型链继承：
 
-### (二) 类式继承：
-### (三) 组合式继承：前两种方式的结合：
-### (四) 寄生组合式继承：
-### (五) ES 6 继承：
-## 属性类型
-在ECMAScript5中，对每个属性都添加了几个属性类型，来描述这些属性的特点。他们分别是：
-- configurable: 表示该属性是否能被delete删除。当其值为false时，其他的特性也不能被改变。默认值为true
-- enumerable: 是否能枚举。也就是是否能被for-in遍历。默认值为true
-- writable: 是否能修改值。默认为true
-- value: 该属性的具体值是多少。默认为undefined
-- get: 当我们通过person.name访问name的值时，get将被调用。该方法可以自定义返回的具体值时多少。get默认值为undefined
-- set: 当我们通过person.name = 'Jake'设置name的值时，set方法将被调用。该方法可以自定义设置值的具体方式。set默认值为undefined
-- 我们可以通过Object.defineProperty方法来修改这些属性类型。
+
+
+
+
+
+

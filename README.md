@@ -39,10 +39,9 @@ JavaScript专题系列正在发布中……
 3. [Markdown语法规则](./other/Markdown语法规则.md)
 1. [Git查漏补缺](./other/Git查漏补缺.md)
 4. [Javascript小练习](./other/Javascript小练习.md)
-
 ## 随笔
 ## 勘误及提问
-如果有疑问或者发现错误，可以在相应的 issues 进行讨论与交流。
+如果有疑问或者发现错误，可以进行讨论与交流。
 如果喜欢或者有所启发，欢迎 star。
 ## License
 所有文章采用[知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)进行许可。
