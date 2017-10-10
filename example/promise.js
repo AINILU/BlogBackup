@@ -1,0 +1,1 @@
+Promise.resolve(42).then(val => console.log(val))
