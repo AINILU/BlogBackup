@@ -39,6 +39,7 @@ JavaScript专题系列正在发布中……
 1. [Markdown语法规则](./other/Markdown语法规则.md)
 1. [Git查漏补缺](./other/Git查漏补缺.md)
 1. [Javascript小练习](./other/Javascript小练习.md)
+1. [VsCode全局配置eslint](./other/VSCode全局配置ESLint.md)
 ## 随笔
 1. [闹市中心，大多长袖善舞](./essay/随笔1.md)
 1. [骑白云，步紫极，始自今日](./essay/随笔17.md)
