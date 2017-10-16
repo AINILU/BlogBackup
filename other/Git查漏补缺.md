@@ -1,3 +1,5 @@
+git merge origin/master --allow-unrelated-histories
+
 初始化本地git仓库（创建新仓库）
 ```bash
 git init
